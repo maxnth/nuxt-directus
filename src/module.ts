@@ -97,8 +97,7 @@ export default defineNuxtModule<ModuleOptions>({
     name: 'nuxt-directus',
     configKey: 'directus',
     compatibility: {
-      nuxt: '>=3.0.0-rc.9 || ^2.16.0',
-      bridge: true
+      nuxt: '>=3.0.0-rc.9 || ^2.16.0'
     }
   },
   defaults: {
@@ -146,7 +145,7 @@ export default defineNuxtModule<ModuleOptions>({
     }
 
     if (options.devtools) {
-      const adminUrl = joinURL(nuxt.options.runtimeConfig.public.directus.url, '/admin/')
+      const adminUrl = joinURL((options.url), '/admin/')
       // @ts-expect-error - private API
       nuxt.hook('devtools:customTabs', (iframeTabs) => {
         iframeTabs.push({
