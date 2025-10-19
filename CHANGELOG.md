@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v5.9.0
+
+[compare changes](https://github.com/intevel/nuxt-directus/compare/v5.8.0...v5.9.0)
+
 ## v5.8.0
 
 
