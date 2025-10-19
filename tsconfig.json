@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "moduleResolution": "node",
-    "module": "ESNext"
+    "module": "ESNext",
+    "types": [
+      "node"
+    ]
   }
 }
